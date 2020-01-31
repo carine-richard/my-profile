@@ -86,3 +86,19 @@ div {
 #logo {
 	border-radius: 70%;
 }
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width : 500px) {
+	.container {
+		width: 400px;
+	}
+}
